@@ -43,7 +43,7 @@ public abstract class Ticket{
 
 	public void printDuration() {
 		Duration duration = getDurationOfJourney(flight.getDepartureDateTime(), flight.getArrivalDateTime());
-		System.out.println(duration.toMinutes());
+		System.out.println(duration.toMinutes()+" minutes");
 	}
 
 	public long getPNRNumber() {
