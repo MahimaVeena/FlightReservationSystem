@@ -1,8 +1,8 @@
-public class Address {
+public class Address{
 
-	public String street;
-	public String city;
-	public String state;
+	private String street;
+	private String city;
+	private String state;
 
 	public Address(String street, String city, String state) {
 		this.street = street;
